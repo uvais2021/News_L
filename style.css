@@ -1,0 +1,29 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 440px;
+    height: 90px;
+    margin-top: 300px;
+}
+h1{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+input{
+    height: 25px;
+    width: 240px;
+}
+button{
+    height: 25px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    border: none;
+    margin-left: 30px;
+}
